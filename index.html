@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capsula do Futuro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="top-bar-terminal">
+        <div class="terminal-title">FUTURE CAPSULE SYSTEM // v1.0</div>
+        <div class="window-controls">
+            <span>_</span>
+            <span>▢</span>
+            <span>✕</span>
+        </div>
+    </header>
+
+    <main class="main-layout-terminal">
+        <section class="panel-left">
+            <p class="timer-label">TIME UNTIL OPENING:</p>
+            <div class="timer-digital italic">
+                <span id="years">00</span><small>(Year)</small>
+            </div>
+            
+            <p class="timer-label-sub">TIMER SUB</p>
+            <div class="timer-digital-small italic">
+                <span id="days">00</span><small>(days)</small>
+            </div>
+            <div class="timer-digital-small italic gray">
+                <span id="months">00</span><small>(months)</small>
+            </div>
+
+            <p class="timer-label-sub">TIMER</p>
+            <div class="clock-display italic" id="clock">00:00:00</div>
+            <span class="sub-text">clock</span>
+        </section>
+
+        <section class="panel-center">
+            <div class="capsula-wrapper">
+                <div class="capsula-v2">
+                    <div class="core-glow-v2"></div>
+                    <div class="ring-top"></div>
+                    <div class="ring-bottom"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel-right">
+            <div class="glass-card-terminal">
+                <h3 class="card-title">| GLASS CARD</h3>
+                
+                <div class="input-row">
+                    <span>Email:</span> 
+                    <input type="email" id="emailUser" placeholder="REGISTER EMAIL">
+                </div>
+
+                <div class="input-row">
+                    <span>Enter:</span>
+                    <textarea id="textoCapsula" placeholder="WRITE YOUR MESSAGE..."></textarea>
+                </div>
+
+                <div class="input-row">
+                    <span>Date:</span>
+                    <input type="date" id="dataAlvo">
+                </div>
+
+                <div class="input-row">
+                    <span>Pass:</span>
+                    <input type="password" id="novaSenha" placeholder="SET PASSWORD">
+                </div>
+                
+                <div class="release-box">release date</div>
+
+                <div class="button-group" style="display: flex; gap: 10
